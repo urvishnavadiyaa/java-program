@@ -13,9 +13,8 @@ class Holiday {
     public static boolean isSamemonth(Holiday h1,Holiday h2) {
         if(h1.month == h2.month) {
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
     public static Double avgDate(Holiday h[]) {
         Double average = (double) 0;

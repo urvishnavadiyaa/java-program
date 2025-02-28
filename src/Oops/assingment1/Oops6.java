@@ -45,18 +45,12 @@ public class Oops6 {
         Movie m5 = new Movie("puspa","balaji");
         Movie m6 = new Movie("puspa2","rajhans");
 
-        m1 = new Movie("dhamal","yashraj","5 star");
-        m[0] = m1;
-        m2 = new Movie("dhol","dharma","1 star");
-        m[1] =m2;
-        m3 = new Movie("halchal","Tsearies","3 star");
-        m[2] = m3;
-        m4 = new Movie("sigham","reliance","5 star");
-        m[3] = m4;
-        m5 = new Movie("puspa","balaji","5 star");
-        m[4] = m5;
-        m6 = new Movie("puspa2","rajhans","4 star");
-        m[5] =m6;
+        m[0] = new Movie("dhamal","yashraj","5 star");
+        m[1] = new Movie("dhol","dharma","1 star");
+        m[2] = new Movie("halchal","Tsearies","3 star");
+        m[3] = new Movie("sigham","reliance","5 star");
+        m[4] = new Movie("puspa","balaji","5 star");
+        m[5] = new Movie("puspa2","rajhans","4 star");
 
         Movie mve[] =Movie.get5StarMovies(m);
         for(int i=0;i<mve.length;i++) {

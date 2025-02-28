@@ -1,12 +1,5 @@
 package Oops.assingment1;
 
-public class Oops2 {
-    public static void main(String[] args) {
-        Account a1 = new Account(12123,"parth",10000,5);
-        a1.calculateInterest();
-        a1.displayAccountDetails();
-    }
-}
 class Account {
     private int accno;
     private String custname;
@@ -27,5 +20,11 @@ class Account {
     public void displayAccountDetails() {
         System.out.println(accno + " ," + custname + " ," + bal + " ," + intrestrate);
     }
-
+}
+public class Oops2 {
+    public static void main(String[] args) {
+        Account a1 = new Account(12123,"parth",10000,5);
+        a1.calculateInterest();
+        a1.displayAccountDetails();
+    }
 }
