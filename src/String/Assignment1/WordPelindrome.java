@@ -11,7 +11,7 @@ public class WordPelindrome {
             int j=0;
             int k=ch.length-1;
             while (j<k) {
-                if((int)ch[j] != (int)ch[k]) {
+                if(ch[j] != ch[k]) {
                     System.out.println("not pelindrome");
                     return;
                 }
