@@ -3,7 +3,7 @@ package String.assingment2;
 public class p3 {
     public static void main(String[] args) {
         String s1="aabc";
-        String s2="acab";
+        String s2="abac";
         int arr[]=new int[128];
         int arr2[]=new int[128];
         if(s1.length() != s2.length()) {

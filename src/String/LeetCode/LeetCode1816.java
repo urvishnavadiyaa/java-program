@@ -1,6 +1,6 @@
 package String.LeetCode;
 
-public class LeetCode1861 {
+public class LeetCode1816 {
     public static void main(String[] args) {
         String s = "Hello how are you Contestant";
         String s1 = "";
@@ -20,3 +20,72 @@ public class LeetCode1861 {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
