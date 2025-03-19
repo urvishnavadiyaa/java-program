@@ -22,11 +22,11 @@ public class BalParanthesses {
             } else {
                 ch.push(c);
             }
-            if (i == s.length()-1 && !ch.isEmpty()) {
-                System.out.println("not balanced");
-                return;
-            }
             i++;
+        }
+        if (!ch.isEmpty()) {
+            System.out.println("not balanced");
+            return;
         }
         System.out.println("balanced");
     }
