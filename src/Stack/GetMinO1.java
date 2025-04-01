@@ -18,7 +18,7 @@ class Stacks {
             s2.pop();
         }
     }
-    public static int getMin(){
+    public static int getMin() {
         return s2.peek();
     }
 }

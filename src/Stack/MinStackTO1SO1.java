@@ -1,7 +1,7 @@
 package Stack;
 import java.util.Stack;
 
-public class MinStack {
+public class MinStackTO1SO1 {
     static Stack<Integer> stack = new Stack<>();
     static int minVal;
 
@@ -24,17 +24,12 @@ public class MinStack {
         }
     }
 
-    public int top() {
-        int top = stack.peek();
-        return (top < minVal) ? minVal : top;
-    }
-
     public int getMin() {
         return minVal;
     }
 
     public static void main(String[] args) {
-        MinStack s = new MinStack();
+        MinStackTO1SO1 s = new MinStackTO1SO1();
 
         s.push(5);
         System.out.println(s.getMin());
