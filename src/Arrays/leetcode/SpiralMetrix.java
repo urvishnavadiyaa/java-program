@@ -6,10 +6,9 @@ import java.util.List;
 
 public class SpiralMetrix {
     public static void main(String[] args) {
-        int arr[][]={{1,2,3,7},
-                     {4,5,6,2},
-                     {7,8,9,8},
-                     {2,6,2,7}};
+        int arr[][]={{1,2,3},
+                     {4,5,6},
+                     {7,8,9}};
         int m=arr.length;
         int n=arr[0].length;
 //        List<Integer> l = new ArrayList<>();

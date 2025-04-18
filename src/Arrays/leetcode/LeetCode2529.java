@@ -17,6 +17,7 @@ public class LeetCode2529 {
                 j = mid-1;
             } else {
                 i = mid;
+
             }
         }
         int ans = Math.max(cnag,cpos);

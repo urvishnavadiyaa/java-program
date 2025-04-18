@@ -36,10 +36,10 @@ public class DoubleEnded_Queue {
             System.out.println("queue is already empty");
             return;
         }
-        int i= rear;
-        while (i != front) {
-            arr[i-1] = arr[i];
-            i--;
+        int i=front;
+        while (i != rear) {
+            arr[i]=arr[i+1];
+            i++;
         }
         rear--;
     }
@@ -60,6 +60,17 @@ public class DoubleEnded_Queue {
     public static void main(String[] args) {
         InsertLast(10);
         InsertLast(20);
+        InsertLast(30);
+        InsertLast(40);
+        InsertLast(50);
+        InsertFirst(44);
+        InsertFirst(45);
+        InsertFirst(46);
+        InsertFirst(47);
+        InsertFirst(48);
+        DeleteFirst();
+        System.out.println(front);
+        System.out.println(rear);
         DeleteLast();
         InsertFirst(42);
         InsertFirst(30);
